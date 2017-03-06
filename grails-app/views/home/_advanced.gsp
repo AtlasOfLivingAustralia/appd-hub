@@ -59,7 +59,7 @@
         </tr>
         </tbody>
     </table>
-    <b><g:message code="advancedsearch.host_name" default="Find records that specify the following host name (verbatim/unprocessed name)"/></b>
+    <b><g:message code="advancedsearch.host_name" default="Find records that include the following host name"/></b>
     <table border="0" width="100" cellspacing="2" class="compact">
         <thead/>
         <tbody>
