@@ -158,7 +158,7 @@
                 "sort":"count",
                 "field":"assertions"
             },
-            
+            {
                 "sort":"count",
                 "field":"outlier_layer"
             },
