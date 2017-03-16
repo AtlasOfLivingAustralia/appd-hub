@@ -45,6 +45,7 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
         // runtime ":biocache-hubs:0.74"
+        // runtime ":ala-web-theme:0.8.5"
 
     }
 
@@ -56,7 +57,7 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.8"
         runtime ":cached-resources:1.0"
         runtime ":biocache-hubs:1.3.7"
-        runtime ":ala-web-theme:0.8.5"
+        runtime ":ala-auth:1.3.4"
         runtime ":downloads-plugin:1.2.2"
     }
 }
