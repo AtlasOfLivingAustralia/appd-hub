@@ -14,7 +14,7 @@
                 providing your email address, affiliation and reasons for requesting access.
             </div>
 
-            <g:set var="loginLogout" value="${hf.loginLogout(loginReturnToUrl:g.createLink(uri:'/search',absolute:true))}"/>
+            <g:set var="loginLogout" value="${auth.loginLogout(loginReturnToUrl:g.createLink(uri:'/search',absolute:true))}"/>
             <g:if test="${loginLogout =~ /login/}">
                 <div style="margin: 10px 0;">
                     Continue to  ${raw(loginLogout)} page.

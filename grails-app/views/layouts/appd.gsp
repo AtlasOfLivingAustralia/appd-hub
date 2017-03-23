@@ -116,7 +116,7 @@
                     <g:else>
                         <g:set var="returnUrlPath" value="${pageProperty(name:'page.returnUrlPath')}"/>
                     </g:else>
-                    <hf:loginLogout logoutUrl="${request.contextPath}/logout/logout" logoutReturnToUrl="${returnUrlPath}"/>
+                    <auth:loginLogout logoutUrl="${request.contextPath}/logout/logout" logoutReturnToUrl="${returnUrlPath}"/>
 
                 </p>
                 %{--<p class="navbar-text pull-right">--}%

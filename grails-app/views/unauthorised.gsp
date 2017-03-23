@@ -20,11 +20,11 @@
 </g:if>
 <g:else>
 </g:else>
-<g:set var="loginLogout" value="${hf.loginLogout(loginReturnToUrl:g.createLink(uri:'/index',absolute:true))}"/>
+<g:set var="loginLogout" value="${auth.loginLogout(loginReturnToUrl:g.createLink(uri:'/index',absolute:true))}"/>
 <g:if test="${loginLogout =~ /login/}">
     Please ${raw(loginLogout)}
 </g:if>
-%{--<hf:loginLogout loginReturnToUrl="${request.contextPath}/index" logoutUrl="${request.contextPath}/logout/logout" logoutReturnToUrl="${request.contextPath}/"/>--}%
+%{--<auth:loginLogout loginReturnToUrl="${request.contextPath}/index" logoutUrl="${request.contextPath}/logout/logout" logoutReturnToUrl="${request.contextPath}/"/>--}%
 
 </body>
 </html>
