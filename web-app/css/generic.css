@@ -1,4 +1,6 @@
-
+body {
+    padding-top: 0;
+}
 
 #main-content #customiseFacetsButton > .dropdown-menu,
 #main-content #resultsReturned .dropdown-menu {
