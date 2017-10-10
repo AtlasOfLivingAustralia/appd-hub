@@ -51,7 +51,7 @@
             <td>
                 <select class="species_group" name="species_group" id="species_group">
                     <option value=""><g:message code="advancedsearch.group.option.label" default="-- select a species group --"/></option>
-                    <g:each var="group" in="${request.getAttribute(FacetsName.SPECIES_GROUP.fieldname)}">
+                    <g:each var="group" in="${request.getAttribute("species_group")}">
                         <option value="${group.key}">${group.value}</option>
                     </g:each>
                 </select>
@@ -80,7 +80,7 @@
             <td>
                 <select class="country" name="country" id="country">
                     <option value=""><g:message code="advancedsearch.country.option.label" default="-- select a country --"/></option>
-                    <g:each var="country" in="${request.getAttribute(FacetsName.COUNTRIES.fieldname)}">
+                    <g:each var="country" in="${request.getAttribute("country")}">
                         <option value="${country.key}">${country.value}</option>
                     </g:each>
                 </select>
@@ -91,7 +91,7 @@
             <td>
                 <select class="state" name="state" id="state">
                     <option value=""><g:message code="advancedsearch.state.option.label" default="-- select a state/territory --"/></option>
-                    <g:each var="state" in="${request.getAttribute(FacetsName.STATES.fieldname)}">
+                    <g:each var="state" in="${request.getAttribute("state")}">
                         <option value="${state.key}">${state.value}</option>
                     </g:each>
                 </select>
@@ -108,7 +108,7 @@
             <td>
 		<select class="dataset" name="dataset" id="dataset">
                     <option value=""><g:message code="advancedsearch.dataset.option.label" default="-- select a dataset --"/></option>
-                    <g:each var="dataset" in="${request.getAttribute(FacetsName.DATA_RESOURCE.fieldname)}">
+                    <g:each var="dataset" in="${request.getAttribute("data_resource_uid")}">
                         <option value="${dataset.key}">${dataset.value}</option>
                     </g:each>
                 </select>
