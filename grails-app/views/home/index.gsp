@@ -16,8 +16,15 @@
     <meta name="section" content="search"/>
     <meta name="svn.revision" content="${meta(name: 'svn.revision')}"/>
     <title><g:message code="home.index.title" default="Search for records"/> | ${hubDisplayName}</title>
-    <script src="http://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>
-    <r:require modules="jquery, leaflet, mapCommon, searchMap, bieAutocomplete"/>
+
+    <g:if test="${grailsApplication.config.google.apikey}">
+        <script src="https://maps.googleapis.com/maps/api/js?key=${grailsApplication.config.google.apikey}" type="text/javascript"></script>
+    </g:if>
+    <g:else>
+        <script src="https://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>
+    </g:else>
+  
+  <r:require modules="jquery, leaflet, mapCommon, searchMap, bieAutocomplete"/>
     <r:script>
         // global var for GSP tags/vars to be passed into JS functions
         var BC_CONF = {
