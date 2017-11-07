@@ -25,7 +25,7 @@
     </g:else>
   
   <r:require modules="jquery, leaflet, mapCommon, searchMap, bieAutocomplete"/>
-    <r:script>
+    <r:script disposition='head'>
         // global var for GSP tags/vars to be passed into JS functions
         var BC_CONF = {
             biocacheServiceUrl: "${alatag.getBiocacheAjaxUrl()}",
