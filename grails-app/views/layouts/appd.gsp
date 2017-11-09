@@ -131,6 +131,14 @@
         </div><!--/.container-fluid -->
     </div><!--/.navbar-inner -->
 </div><!--/.navbar -->
+                        
+<!-- Optional banner message (requires ala-admin-plugin) -->
+<plugin:isAvailable name="alaAdminPlugin">
+	<div class="ala-admin-message">
+        <ala:systemMessage/>
+	</div>
+</plugin:isAvailable>
+<!-- end banner message -->
 
 <div class="container" id="main-content">
     <g:layoutBody />
