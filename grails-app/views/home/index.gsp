@@ -24,7 +24,7 @@
         <script src="https://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>
     </g:else>
   
-  <r:require modules="jquery, leaflet, mapCommon, searchMap, bieAutocomplete, jquery, leafletPlugins, bootstrapCombobox"/>
+  <r:require modules="jquery, leaflet, mapCommon, searchMap, bieAutocomplete, leafletPlugins, bootstrapCombobox"/>
     <r:script disposition='head'>
         // global var for GSP tags/vars to be passed into JS functions
         var BC_CONF = {
