@@ -40,7 +40,7 @@ println "default_config = ${default_config}"
 /******************************************************************************\
  *  SKINNING
 \******************************************************************************/
-organisation.baseUrl = "http://www.ala.org.au"
+organisation.baseUrl = "https://www.ala.org.au"
 skin.layout = 'appd'
 skin.fluidLayout = "true"
 skin.orgNameLong = "Australian Plant Pest Database"
