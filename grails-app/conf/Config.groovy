@@ -165,8 +165,8 @@ environments {
         //security.cas.contextPath = "/${appName}"
     }
     production {
-        grails.serverURL = 'http://appd.ala.org.au'
-        serverName='http://appd.ala.org.au'
+        grails.serverURL = 'https://appd.ala.org.au'
+        serverName='https://appd.ala.org.au'
         security.cas.appServerName = serverName
     }
 }
