@@ -1,4 +1,8 @@
-This project is archived, The [Australian Plant Pest Database](https://www.appd.net.au/) is now managed by [Plant Health Australia](https://www.planthealthaustralia.com.au/)  
+## Project Archived
+
+This project is archived, The [Australian Plant Pest Database](https://www.appd.net.au/) is now managed by [Plant Health Australia](https://www.planthealthaustralia.com.au/) 
+
+---
 
 ### appd-hub   [![Build Status](https://travis-ci.org/AtlasOfLivingAustralia/appd-hub.svg?branch=master)](https://travis-ci.org/AtlasOfLivingAustralia/appd-hub)
 
